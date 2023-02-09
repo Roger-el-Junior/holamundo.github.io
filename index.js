@@ -2448,3 +2448,167 @@ function pa_ni10_10(){
     }
 }
 //fin de nivel10
+function pala1(){
+    document.getElementById("palabra1").name="hola"
+    document.getElementById("palabra6").name="hola"
+    
+    document.getElementById("table").name="hola"
+    document.getElementById("tabla").name="hola"
+    
+    document.getElementById("pa_ni3_1").name="hla"
+    document.getElementById("pa_ni3_10").name="hla"
+    
+    document.getElementById("pa_ni4_1").name="hla"
+    document.getElementById("pa_ni4_6").name="hla"
+    
+    document.getElementById("pa_ni5_1").name="abc"
+    document.getElementById("pa_ni5_4").name="abc"
+    
+    document.getElementById("pa_ni6_1").name="abc"
+    document.getElementById("pa_ni6_4").name="abc"
+        
+    document.getElementById("pa_ni7_1").name="abc"
+    document.getElementById("pa_ni7_8").name="abc"
+    
+    document.getElementById("pa_ni8_1").name="abc"
+    document.getElementById("pa_ni8_10").name="abc"
+    
+    document.getElementById("pa_ni9_1").name="abc"
+    document.getElementById("pa_ni9_4").name="abc"
+    
+    document.getElementById("pa_ni10_1").name="abc"
+    document.getElementById("pa_ni10_2").name="abc"
+    
+}
+function pala2(){
+    document.getElementById("palabra2").name="hola"
+    document.getElementById("palabra7").name="hola"
+    
+    document.getElementById("old").name="hola"
+    document.getElementById("viejo").name="hola"
+    
+    document.getElementById("pa_ni3_2").name="hola"
+    document.getElementById("pa_ni3_9").name="hola"
+    
+        document.getElementById("pa_ni4_2").name="hola"
+    document.getElementById("pa_ni4_5").name="hola"
+    
+    document.getElementById("pa_ni5_2").name="abc"
+    document.getElementById("pa_ni5_3").name="abc"
+    
+    document.getElementById("pa_ni6_2").name="abc"
+    document.getElementById("pa_ni6_3").name="abc"
+    
+    document.getElementById("pa_ni7_2").name="abc"
+    document.getElementById("pa_ni7_7").name="abc"
+    
+    document.getElementById("pa_ni8_3").name="abc"
+    document.getElementById("pa_ni8_4").name="abc"
+    
+    document.getElementById("pa_ni9_2").name="abc"
+    document.getElementById("pa_ni9_7").name="abc"
+    
+    document.getElementById("pa_ni10_3").name="abc"
+    document.getElementById("pa_ni10_4").name="abc"
+    
+}
+
+function pala3(){
+    document.getElementById("palabra3").name="hola"
+    document.getElementById("palabra10").name="hola"
+    
+    document.getElementById("house").name="hola"
+    document.getElementById("casa").name="hola"
+    
+    document.getElementById("pa_ni3_3").name="hello"
+    document.getElementById("pa_ni3_8").name="hello"
+    
+    document.getElementById("pa_ni4_3").name="hello"
+    document.getElementById("pa_ni4_4").name="hello"
+    
+    document.getElementById("pa_ni5_5").name="abc"
+    document.getElementById("pa_ni5_10").name="abc"
+    
+    document.getElementById("pa_ni6_5").name="abc"
+    document.getElementById("pa_ni6_6").name="abc"
+
+    document.getElementById("pa_ni7_3").name="abc"
+    document.getElementById("pa_ni7_6").name="abc"
+    
+    document.getElementById("pa_ni8_5").name="abc"
+    document.getElementById("pa_ni8_2").name="abc"
+    
+    document.getElementById("pa_ni9_3").name="abc"
+    document.getElementById("pa_ni9_10").name="abc"
+        
+    document.getElementById("pa_ni10_5").name="abc"
+    document.getElementById("pa_ni10_6").name="abc"
+        
+}
+
+function pala4(){
+    document.getElementById("palabra4").name="hola"
+    document.getElementById("palabra9").name="hola"
+    
+    document.getElementById("sombrero").name="hola"
+    document.getElementById("hat").name="hola"
+    
+    document.getElementById("pa_ni3_7").name="hi"
+    document.getElementById("pa_ni3_4").name="hi"
+    
+    document.getElementById("pa_ni4_7").name="hi"
+    document.getElementById("pa_ni4_10").name="hi"
+
+    document.getElementById("pa_ni5_6").name="abc"
+    document.getElementById("pa_ni5_9").name="abc"
+    
+    document.getElementById("pa_ni6_7").name="abc"
+    document.getElementById("pa_ni6_10").name="abc"
+    
+    document.getElementById("pa_ni7_4").name="abc"
+    document.getElementById("pa_ni7_9").name="abc"
+    
+document.getElementById("pa_ni8_9").name="abc"
+    document.getElementById("pa_ni8_6").name="abc"
+
+    document.getElementById("pa_ni9_5").name="abc"
+    document.getElementById("pa_ni9_8").name="abc"
+
+    document.getElementById("pa_ni10_7").name="abc"
+    document.getElementById("pa_ni10_8").name="abc"
+
+}
+
+function pala5(){
+    document.getElementById("palabra5").name="hola"
+    document.getElementById("palabra8").name="hola"
+    
+    document.getElementById("azul").name="hola"
+    document.getElementById("blue").name="hola"
+    
+    document.getElementById("pa_ni3_6").name="hola"
+     document.getElementById("pa_ni3_5").name="hola"
+
+    document.getElementById("pa_ni4_8").name="hola"
+     document.getElementById("pa_ni4_9").name="hola"
+
+    document.getElementById("pa_ni5_8").name="abc"
+    document.getElementById("pa_ni5_7").name="abc"
+
+    document.getElementById("pa_ni6_8").name="abc"
+    document.getElementById("pa_ni6_9").name="abc"
+
+    document.getElementById("pa_ni7_5").name="abc"
+    document.getElementById("pa_ni7_10").name="abc"
+
+    document.getElementById("pa_ni8_7").name="abc"
+    document.getElementById("pa_ni8_8").name="abc"
+
+    document.getElementById("pa_ni9_6").name="abc"
+    document.getElementById("pa_ni9_9").name="abc"
+
+    document.getElementById("pa_ni10_10").name="abc"
+    document.getElementById("pa_ni10_9").name="abc"
+
+}
+
