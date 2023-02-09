@@ -1,4 +1,4 @@
-No//nivel1
+//nivel1
 function evalua1(){
     
     let pal1=document.getElementById("palabra1").name="play"
