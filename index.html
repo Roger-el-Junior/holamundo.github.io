@@ -1,0 +1,695 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            ArmaLosPares
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" contenet="width=divice-width, initia-scale=1.0">
+        <link rel="stylesheet" href="estilos.css">
+        <script src="index.js"></script>
+    </head>
+    <body >
+        
+        <header id="paginaPrincipal">
+            
+            <button class="historia"
+            onclick="modoHistoria()">
+            Modo Historia
+            </button>
+        
+        </header>
+        <div class="mundo" id="historia">
+            
+            <button class="nivel1 
+            uno" onclick="nivel1()">
+                NVL1
+            </button>
+            <button class="nivel2 dos" onclick="nivel2()">NVL2
+            </button>
+            
+            <button class="nivel3 tres"
+            onclick="nivel3()">NVL3
+            </button>
+            
+            <button class="nivel2 dos" onclick="nivel4()">NVL4
+            </button>
+            
+            <button class="nivel1 uno" onclick="nivel5()">NVL5
+            </button>
+            
+            <button class="nivel2 dos"
+            onclick="nivel6()">NVL6
+            </button>
+            
+            <button class="nivel3 tres"
+            onclick="nivel7()">NVL7
+            </button>
+            
+            <button class="nivel2 dos"
+            onclick="nivel8()">NVL8
+            </button>
+            
+            <button class="nivel1 uno"
+            onclick="nivel9()">NVL9
+            </button>
+            
+            
+            <button class="nivel2 dos"
+            onclick="nivel10()">NVL10
+            </button>
+
+        </div>
+        <!--aqui van los niveles-->
+        
+        <article class="fondo" id="fondo">
+            <section id="tres">
+                <div>
+                    <span id="puntos"></span>
+               </div>
+            </section>
+                
+            <section class="uno1" id="dos">
+                <div id="palabra1" onclick="evalua1()">
+                    <p>juega</p>
+                </div>
+        
+                <div id="palabra2" onclick="evalua2()">
+                    <p>day</p>
+                </div>
+        
+                <div id="palabra3" onclick="evalua3()">
+                    <p>trabajo</p>
+                </div>
+        
+                <div id="palabra4" onclick="evalua4()">
+                    <p >closed</p>
+                </div>
+        
+                <div id="palabra5" onclick="evalua5()">
+                    <p>vamos</p>
+                </div>
+        
+                <div id="palabra6" name="jugar" onclick="resp1()">
+                    <p>plays</p>
+                </div>
+        
+                <div id="palabra7" onclick="resp2()">
+                    <p>dia</p>
+                </div>
+        
+                <div id="palabra8" onclick="resp5()">
+                    <p>come</p>
+                </div>
+        
+                <div id="palabra9" onclick="resp4()">
+                    <p>serrado</p>
+                </div>
+        
+                <div id="palabra10" onclick="resp3()">
+                    <p>work</p>
+                </div>
+            </section>
+            
+            <section class="uno1 nivel2" id="nv2">
+        <div id="table" 
+        onclick="tabla()">
+            <p>tabla</p>
+        </div>
+        
+        <div id="tabla" onclick="table()">
+            <p>table</p>
+        </div>
+        
+        <div id="old" onclick="old()">
+            <p>viejo</p>
+        </div>
+        
+        <div id="sombrero" onclick="sombrero()">
+            <p >hat</p>
+        </div>
+        
+        <div id="house" onclick="house()">
+            <p>casa</p>
+        </div>
+        
+        <div id="viejo" onclick="viejo()">
+            <p>old</p>
+        </div>
+        
+        <div id="hat" onclick="hat()">
+            <p>sombrero</p>
+        </div>
+        
+        <div id="azul" onclick="azul()">
+            <p>blue</p>
+        </div>
+        
+        <div id="blue" onclick="blue()">
+            <p>azul</p>
+        </div>
+        
+        <div id="casa" onclick="casa()">
+            <p>house</p>
+        </div>
+    
+            </section>
+
+            <section class="uno1" 
+            id="nivel3">
+        
+                <div id="pa_ni3_1" 
+                onclick="pa_ni3_1()"
+                name="qehay">
+                    <p>hola</p>
+                </div>
+        
+                <div id="pa_ni3_2" 
+                onclick="pa_ni3_2()">
+                    <p>one</p>
+                </div>
+        
+                <div id="pa_ni3_3"
+                onclick="pa_ni3_3()">
+                    <p>adios</p>
+                </div>
+        
+        <div id="pa_ni3_4"
+        onclick="pa_ni3_4()">
+            <p>bad</p>
+        </div>
+        <div id="pa_ni3_5"
+        onclick="pa_ni3_5()">
+            <p>bueno</p>
+        </div>
+        <div id="pa_ni3_6"
+        onclick="pa_ni3_6()">
+            <p>good</p>
+        </div>
+        <div id="pa_ni3_7"
+        onclick="pa_ni3_7()">
+            <p>malo</p>
+        </div>
+        <div id="pa_ni3_8"
+        onclick="pa_ni3_8()">
+            <p>bye</p>
+        </div>
+        <div id="pa_ni3_9"
+        onclick="pa_ni3_9()">
+            <p>uno</p>
+        </div>
+        <div id="pa_ni3_10"
+        onclick="pa_ni3_10()"
+        name="qehay">
+            <p>hello</p>
+        </div>
+        <!--
+Palabra.    Traduccion
+
+Hola.          One
+
+Adios.        Bad
+
+Bueno.        Good
+
+Malo.            Bye
+
+Uno.          Hello
+-->
+    
+            </section>
+    
+            <section class="uno1" id="nivel4">
+        
+                <div id="pa_ni4_1" 
+                onclick="pa_ni4_1()">
+                    <p>blanco</p>
+                </div>
+        
+                <div id="pa_ni4_2" 
+                onclick="pa_ni4_2()">
+                    <p>red</p>
+                </div>
+        
+                <div id="pa_ni4_3"
+                onclick="pa_ni4_3()">
+                    <p>negro</p>
+                </div>
+        
+                <div id="pa_ni4_4"
+                onclick="pa_ni4_4()">
+                    <p>black</p>
+                </div>
+        
+                <div id="pa_ni4_5"
+                onclick="pa_ni4_5()">
+                    <p>rojo</p>
+                </div>
+        
+                <div id="pa_ni4_6"
+                onclick="pa_ni4_6()">
+                    <p>white</p>
+                </div>
+                
+                <div id="pa_ni4_7"
+                onclick="pa_ni4_7()">
+                    <p>amarillo</p>
+                </div>
+        
+                <div id="pa_ni4_8"
+                onclick="pa_ni4_8()">
+                    <p>green</p>
+                </div>
+        
+                <div id="pa_ni4_9"
+                onclick="pa_ni4_9()">
+                    <p>verdw</p>
+                </div>
+        
+                <div id="pa_ni4_10"
+                onclick="pa_ni4_10()">
+                    <p>yellow</p>
+                </div>
+        <!--
+Blanco.          Red
+
+Negro.        Black
+
+Rojo.        White
+
+Amarillo.            Green
+
+Verde.          Yellow
+-->
+            </section>
+ 
+             <section class="uno1" id="nivel5">
+        
+                <div id="pa_ni5_1" 
+                onclick="pa_ni5_1()">
+                    <p>gris</p>
+                </div>
+        
+                <div id="pa_ni5_2" 
+                onclick="pa_ni5_2()">
+                    <p>pink</p>
+                </div>
+        
+                <div id="pa_ni5_3"
+                onclick="pa_ni5_3()">
+                    <p>Rosado</p>
+                </div>
+        
+                <div id="pa_ni5_4"
+                onclick="pa_ni5_4()">
+                    <p>grey</p>
+                </div>
+        
+                <div id="pa_ni5_5"
+                onclick="pa_ni5_5()">
+                    <p>azul</p>
+                </div>
+        
+                <div id="pa_ni5_6"
+                onclick="pa_ni5_6()">
+                    <p>purple</p>
+                </div>
+                
+                <div id="pa_ni5_7"
+                onclick="pa_ni5_7()">
+                    <p>cafe</p>
+                </div>
+        
+                <div id="pa_ni5_8"
+                onclick="pa_ni5_8()">
+                    <p>brown</p>
+                </div>
+        
+                <div id="pa_ni5_9"
+                onclick="pa_ni5_9()">
+                    <p>morado</p>
+                </div>
+        
+                <div id="pa_ni5_10"
+                onclick="pa_ni5_10()">
+                    <p>azul</p>
+                </div>
+        <!--
+
+Gris.          Pink
+
+Rosado.        Grey
+
+Blue.        Purple
+
+Brown.            Cafe
+
+Morado.          Azul
+-->
+            </section>
+    
+            <section class="uno1" id="nivel6">
+        
+                <div id="pa_ni6_1" 
+                onclick="pa_ni6_1()">
+                    <p>baño</p>
+                </div>
+        
+                <div id="pa_ni6_2" 
+                onclick="pa_ni6_2()">
+                    <p>bedroom</p>
+                </div>
+        
+                <div id="pa_ni6_3"
+                onclick="pa_ni6_3()">
+                    <p>cuarto</p>
+                </div>
+        
+                <div id="pa_ni6_4"
+                onclick="pa_ni6_4()">
+                    <p>badthroom</p>
+                </div>
+        
+                <div id="pa_ni6_5"
+                onclick="pa_ni6_5()">
+                    <p>Cocina</p>
+                </div>
+        
+                <div id="pa_ni6_6"
+                onclick="pa_ni6_6()">
+                    <p>kitchen</p>
+                </div>
+                
+                <div id="pa_ni6_7"
+                onclick="pa_ni6_7()">
+                    <p>ventana</p>
+                </div>
+        
+                <div id="pa_ni6_8"
+                onclick="pa_ni6_8()">
+                    <p>bed</p>
+                </div>
+        
+                <div id="pa_ni6_9"
+                onclick="pa_ni6_9()">
+                    <p>cama</p>
+                </div>
+        
+                <div id="pa_ni6_10"
+                onclick="pa_ni6_10()">
+                    <p>window</p>
+                </div>
+        <!--
+
+Baño.         bedroom
+
+Cuarto.      bathroom
+
+Cocina.      Kitchen
+
+Ventana.    bed
+
+Cama.        window
+
+-->
+            </section>
+    
+            <section class="uno1" id="nivel7">
+        
+                <div id="pa_ni7_1" 
+                onclick="pa_ni7_1()">
+                    <p>ropa</p>
+                </div>
+        
+                <div id="pa_ni7_2" 
+                onclick="pa_ni7_2()">
+                    <p>shoes</p>
+                </div>
+        
+                <div id="pa_ni7_3"
+                onclick="pa_ni7_3()">
+                    <p>camisa</p>
+                </div>
+        
+                <div id="pa_ni7_4"
+                onclick="pa_ni7_4()">
+                    <p>dress</p>
+                </div>
+        
+                <div id="pa_ni7_5"
+                onclick="pa_ni7_5()">
+                    <p>pantalon</p>
+                </div>
+        
+                <div id="pa_ni7_6"
+                onclick="pa_ni7_6()">
+                    <p>shirt</p>
+                </div>
+                
+                <div id="pa_ni7_7"
+                onclick="pa_ni7_7()">
+                    <p>zapatos</p>
+                </div>
+        
+                <div id="pa_ni7_8"
+                onclick="pa_ni7_8()">
+                    <p>clothing</p>
+                </div>
+        
+                <div id="pa_ni7_9"onclick="pa_ni7_9()">
+                    <p>vestido</p>
+                </div>
+        
+                <div id="pa_ni7_10"onclick="pa_ni7_10()">
+                    <p>pant</p>
+                </div>
+        
+            </section>
+    
+            <section class="uno1" id="nivel8">
+        
+                <div id="pa_ni8_1" 
+                onclick="pa_ni8_1()">
+                    <p>semana</p>
+                </div>
+        
+                <div id="pa_ni8_2" 
+                onclick="pa_ni8_2()">
+                    <p>mounth</p>
+                </div>
+        
+                <div id="pa_ni8_3"
+                onclick="pa_ni8_3()">
+                    <p>dia</p>
+                </div>
+        
+                <div id="pa_ni8_4"
+                onclick="pa_ni8_4()">
+                    <p>day</p>
+                </div>
+        
+                <div id="pa_ni8_5"
+                onclick="pa_ni8_5()">
+                    <p>mes</p>
+                </div>
+        
+                <div id="pa_ni8_6"
+                onclick="pa_ni8_6()">
+                    <p>hour</p>
+                </div>
+                
+                <div id="pa_ni8_7"
+                onclick="pa_ni8_7()">
+                    <p>año</p>
+                </div>
+        
+                <div id="pa_ni8_8"
+                onclick="pa_ni8_8()">
+                    <p>year</p>
+                </div>
+        
+                <div id="pa_ni8_9"
+                onclick="pa_ni8_9()">
+                    <p>hora</p>
+                </div>
+        
+                <div id="pa_ni8_10"
+                onclick="pa_ni8_10()">
+                    <p>week</p>
+                </div>
+        <!--
+
+Semana.     Mounth
+
+Día.        day
+
+Mes.        Hour
+
+Año.        year
+
+Hora.       Week
+
+
+-->
+            </section>
+    
+            <section class="uno1" id="nivel9">
+        
+                <div id="pa_ni9_1" 
+                onclick="pa_ni9_1()">
+                    <p>cuerpo</p>
+                </div>
+        
+                <div id="pa_ni9_2" 
+                onclick="pa_ni9_2()">
+                    <p>Foot</p>
+                </div>
+        
+                <div id="pa_ni9_3"
+                onclick="pa_ni9_3()">
+                    <p>Cabeza</p>
+                </div>
+        
+                <div id="pa_ni9_4"
+                onclick="pa_ni9_4()">
+                    <p>body</p>
+                </div>
+        
+                <div id="pa_ni9_5"
+                onclick="pa_ni9_5()">
+                    <p>Brazos</p>
+                </div>
+        
+                <div id="pa_ni9_6"
+                onclick="pa_ni9_6()">
+                    <p>Leg</p>
+                </div>
+                
+                <div id="pa_ni9_7"
+                onclick="pa_ni9_7()">
+                    <p>Pies</p>
+                </div>
+        
+                <div id="pa_ni9_8"
+                onclick="pa_ni9_8()">
+                    <p>Arms</p>
+                </div>
+        
+                <div id="pa_ni9_9"
+                onclick="pa_ni9_9()">
+                    <p>Piernas</p>
+                </div>
+        
+                <div id="pa_ni9_10"
+                onclick="pa_ni9_10()">
+                    <p>Head</p>
+                </div>
+        <!--
+
+Cuerpo         Foot
+
+Cabeza        Body
+
+Brazos.        Leg
+
+Pies.            Arms
+
+Piernas.      Head
+
+
+-->
+            </section>
+    
+            <section class="uno1" id="nivel10">
+        
+                <div id="pa_ni10_1" 
+                onclick="pa_ni10_1()">
+                    <p>uno</p>
+                </div>
+        
+                <div id="pa_ni10_2" 
+                onclick="pa_ni10_2()">
+                    <p>one</p>
+                </div>
+        
+                <div id="pa_ni10_3"
+                onclick="pa_ni10_3()">
+                    <p>dos</p>
+                </div>
+        
+                <div id="pa_ni10_4"
+                onclick="pa_ni10_4()">
+                    <p>two</p>
+                </div>
+        
+                <div id="pa_ni10_5"
+                onclick="pa_ni10_5()">
+                    <p>cinco</p>
+                </div>
+        
+                <div id="pa_ni10_6"
+                onclick="pa_ni10_6()">
+                    <p>five</p>
+                </div>
+                
+                <div id="pa_ni10_7"
+                onclick="pa_ni10_7()">
+                    <p>diez</p>
+                </div>
+        
+                <div id="pa_ni10_8"
+                onclick="pa_ni10_8()">
+                    <p>ten</p>
+                </div>
+        
+                <div id="pa_ni10_9"
+                onclick="pa_ni10_9()">
+                    <p>ocho</p>
+                </div>
+        
+                <div id="pa_ni10_10"
+                onclick="pa_ni10_10()">
+                    <p>heigth</p>
+                </div>
+        <!--
+
+Uno.     One
+
+Dos.      Two
+
+Cinco.    Five
+
+Diez.      Ten
+
+Ocho.     height
+-->
+            </section>
+    
+        </article>
+        
+        <section id="mensajeFinal" class="juegoGamado">
+            <div id="" class="centrarFelicitaciones">
+                <span id="alGanar">
+                Felizidades
+                <br>
+                has 
+                <br>
+                ganado
+                </span>
+            </div>
+        
+            <div id="botones">
+                <button class="boton"
+                onclick="finDeNivel()">
+                salir
+                </button>
+                <button name="nulo"
+                class="boton" onclick="evaluaBoton()"
+                id="sigNivel">
+                continuar
+                </button>
+            </div>
+        </section>
+
+    </body>
+</html>
