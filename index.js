@@ -979,3 +979,734 @@ function pa_ni4_9(){
 
 
 //fin de nivel4
+//nivel5
+
+function pa_ni5_1(){
+    
+    let pal1=document.getElementById("pa_ni5_1").name="play"
+    let pal2=document.getElementById("pa_ni5_4").name
+    
+    for (var i = 1; i < 2; i++) {
+        
+        if(pal1 == pal2){
+            
+            var cl1=document.getElementById("pa_ni5_1").style.borderColor="green"
+            var cl2=document.getElementById("pa_ni5_4").style.borderColor="green"
+            
+            
+            evaluaPuntos()
+            
+        }else{
+            pala2()
+            pala3()
+            pala4()
+            pala5()
+        }
+        
+    }
+    
+}
+
+function pa_ni5_4(){
+    let pal1=document.getElementById("pa_ni5_4").name="play"
+    let pal2=document.getElementById("pa_ni5_1").name
+    
+    
+    console.log()
+    for(i=1; i<2; i++){
+        console.log()
+        if(pal1==pal2){
+            document.getElementById("pa_ni5_4").style.borderColor="green"
+            document.getElementById("pa_ni5_1").style.borderColor="green"
+
+     evaluaPuntos()       
+        }else{
+            pala2()
+            pala3()
+            pala4()
+            pala5()
+        }
+    }
+}
+
+function pa_ni5_2(){
+    let pal1=document.getElementById("pa_ni5_2").name="day"
+    let pal2=document.getElementById("pa_ni5_3").name
+    
+    
+    console.log()
+    for (var i = 1; i < 2; i++) {
+        
+        
+        if(pal1 == pal2){
+            
+            document.getElementById("pa_ni5_2").style.borderColor="green"
+            document.getElementById("pa_ni5_3").style.borderColor="green"
+
+            evaluaPuntos()
+
+        }else{
+            pala1()
+            pala3()
+            pala4()
+            pala5()
+        }
+        
+    }
+    
+}
+
+function pa_ni5_3(){
+    let pal1=document.getElementById("pa_ni5_3").name="day"
+    let pal2=document.getElementById("pa_ni5_2").name
+    
+    
+    console.log()
+    for(i=1; i<2; i++){
+        
+        if(pal1==pal2){
+            
+            document.getElementById("pa_ni5_2").style.borderColor="green"
+            document.getElementById("pa_ni5_3").style.borderColor="green"
+
+            evaluaPuntos()
+        }else{
+            
+            pala1()
+            pala3()
+            pala4()
+            pala5()
+        }
+    }
+}
+
+function pa_ni5_5(){
+    let pal1=document.getElementById("pa_ni5_5").name="work"
+    let pal2=document.getElementById("pa_ni5_10").name
+    
+    
+    console.log()
+    for (var i = 1; i < 2; i++) {
+        
+        
+        if(pal1 == pal2){
+            
+            document.getElementById("pa_ni5_10").style.borderColor="green"
+            document.getElementById("pa_ni5_5").style.borderColor="green"
+
+            evaluaPuntos()
+        }else{
+            
+            pala1()
+            pala2()
+            pala4()
+            pala5()
+        }
+        
+    }
+    
+}
+
+function pa_ni5_10(){
+    let pal1=document.getElementById("pa_ni5_10").name="work"
+    let pal2=document.getElementById("pa_ni5_5").name
+    
+    
+    console.log()
+    for(i=1; i<2; i++){
+    
+        if(pal1==pal2){
+            
+            document.getElementById("pa_ni5_5").style.borderColor="green"
+            document.getElementById("pa_ni5_10").style.borderColor="green"
+    evaluaPuntos()
+            
+            
+        }else{
+            
+            pala1()
+            pala2()
+            pala4()
+            pala5()
+        }
+    }
+}
+
+function pa_ni5_6(){
+    let pal1=document.getElementById("pa_ni5_6").name="what"
+    let pal2=document.getElementById("pa_ni5_9").name
+    
+    for(i=1;i<2;i++){
+        if(pal1 == pal2){
+            
+           document.getElementById("pa_ni5_6").style.borderColor="green"
+            document.getElementById("pa_ni5_9").style.borderColor="green"
+  
+ evaluaPuntos()
+            
+        }else{
+            pala1()
+            pala2()
+            pala3()
+            pala5()
+            
+        }
+    }
+}
+
+function pa_ni5_9(){
+    let pal1=document.getElementById("pa_ni5_9").name="what"
+    let pal2=document.getElementById("pa_ni5_6").name
+
+    for(i=1;i<2;i++){
+        if(pal1 == pal2){
+            
+            
+            document.getElementById("pa_ni5_6").style.borderColor="green"
+            document.getElementById("pa_ni5_9").style.borderColor="green"
+            
+ 
+   evaluaPuntos()          
+        }
+        else{
+            
+            pala1()
+            pala2()
+            pala3()
+            pala5()
+        }
+    }
+}
+
+function pa_ni5_8(){
+    let pal1=document.getElementById("pa_ni5_8").name="hay"
+    let pal2=document.getElementById("pa_ni5_7").name
+    
+    for(i=1;i<2;i++){
+        
+        if(pal1 == pal2){
+            
+           document.getElementById("pa_ni5_8").style.borderColor="green"
+            document.getElementById("pa_ni5_7").style.borderColor="green"
+
+    evaluaPuntos()
+            
+        }else{
+            pala1()
+            pala2()
+            pala3()
+            pala4()
+        }
+    }
+}
+
+function pa_ni5_7(){
+    let pal1=document.getElementById("pa_ni5_7").name="hay"
+    let pal2=document.getElementById("pa_ni5_8").name
+
+    for(i=1;i<2;i++){
+        if(pal1 == pal2){
+            
+            document.getElementById("pa_ni5_7").style.borderColor="green"
+            document.getElementById("pa_ni5_8").style.borderColor="green"
+    evaluaPuntos()
+        }
+        else{
+            
+            pala1()
+            pala2()
+            pala3()
+            pala4()
+        }
+    }
+}
+
+
+//fin de nivel5
+//nivel 6 
+
+function pa_ni6_1(){
+    
+    let pal1=document.getElementById("pa_ni6_1").name="play"
+    let pal2=document.getElementById("pa_ni6_4").name
+    
+    for (var i = 1; i < 2; i++) {
+        
+        if(pal1 == pal2){
+            
+            var cl1=document.getElementById("pa_ni6_1").style.borderColor="green"
+            var cl2=document.getElementById("pa_ni6_4").style.borderColor="green"
+            
+            
+            evaluaPuntos()
+            
+        }else{
+            pala2()
+            pala3()
+            pala4()
+            pala5()
+        }
+        
+    }
+    
+}
+
+function pa_ni6_4(){
+    let pal1=document.getElementById("pa_ni6_4").name="play"
+    let pal2=document.getElementById("pa_ni6_1").name
+    
+    
+    console.log()
+    for(i=1; i<2; i++){
+        console.log()
+        if(pal1==pal2){
+            document.getElementById("pa_ni6_4").style.borderColor="green"
+            document.getElementById("pa_ni6_1").style.borderColor="green"
+
+     evaluaPuntos()       
+        }else{
+            pala2()
+            pala3()
+            pala4()
+            pala5()
+        }
+    }
+}
+
+function pa_ni6_2(){
+    let pal1=document.getElementById("pa_ni6_2").name="day"
+    let pal2=document.getElementById("pa_ni6_3").name
+    
+    
+    console.log()
+    for (var i = 1; i < 2; i++) {
+        
+        
+        if(pal1 == pal2){
+            
+            document.getElementById("pa_ni6_2").style.borderColor="green"
+            document.getElementById("pa_ni6_3").style.borderColor="green"
+
+            evaluaPuntos()
+
+        }else{
+            pala1()
+            pala3()
+            pala4()
+            pala5()
+        }
+        
+    }
+    
+}
+
+function pa_ni6_3(){
+    let pal1=document.getElementById("pa_ni6_3").name="day"
+    let pal2=document.getElementById("pa_ni6_2").name
+    
+    
+    console.log()
+    for(i=1; i<2; i++){
+        
+        if(pal1==pal2){
+            
+            document.getElementById("pa_ni6_2").style.borderColor="green"
+            document.getElementById("pa_ni6_3").style.borderColor="green"
+
+            evaluaPuntos()
+        }else{
+            
+            pala1()
+            pala3()
+            pala4()
+            pala5()
+        }
+    }
+}
+
+function pa_ni6_5(){
+    let pal1=document.getElementById("pa_ni6_5").name="work"
+    let pal2=document.getElementById("pa_ni6_6").name
+    
+    
+    console.log()
+    for (var i = 1; i < 2; i++) {
+        
+        
+        if(pal1 == pal2){
+            
+            document.getElementById("pa_ni6_6").style.borderColor="green"
+            document.getElementById("pa_ni6_5").style.borderColor="green"
+
+            evaluaPuntos()
+        }else{
+            
+            pala1()
+            pala2()
+            pala4()
+            pala5()
+        }
+        
+    }
+    
+}
+
+function pa_ni6_6(){
+    let pal1=document.getElementById("pa_ni6_6").name="work"
+    let pal2=document.getElementById("pa_ni6_5").name
+    
+    
+    console.log()
+    for(i=1; i<2; i++){
+    
+        if(pal1==pal2){
+            
+            document.getElementById("pa_ni6_5").style.borderColor="green"
+            document.getElementById("pa_ni6_6").style.borderColor="green"
+    evaluaPuntos()
+            
+            
+        }else{
+            
+            pala1()
+            pala2()
+            pala4()
+            pala5()
+        }
+    }
+}
+
+function pa_ni6_7(){
+    let pal1=document.getElementById("pa_ni6_7").name="what"
+    let pal2=document.getElementById("pa_ni6_10").name
+    
+    for(i=1;i<2;i++){
+        if(pal1 == pal2){
+            
+           document.getElementById("pa_ni6_7").style.borderColor="green"
+            document.getElementById("pa_ni6_10").style.borderColor="green"
+  
+ evaluaPuntos()
+            
+        }else{
+            pala1()
+            pala2()
+            pala3()
+            pala5()
+            
+        }
+    }
+}
+
+function pa_ni6_10(){
+    let pal1=document.getElementById("pa_ni6_10").name="what"
+    let pal2=document.getElementById("pa_ni6_7").name
+
+    for(i=1;i<2;i++){
+        if(pal1 == pal2){
+            
+            
+            document.getElementById("pa_ni6_7").style.borderColor="green"
+            document.getElementById("pa_ni6_10").style.borderColor="green"
+            
+ 
+   evaluaPuntos()          
+        }
+        else{
+            
+            pala1()
+            pala2()
+            pala3()
+            pala5()
+        }
+    }
+}
+
+function pa_ni6_8(){
+    let pal1=document.getElementById("pa_ni6_8").name="hay"
+    let pal2=document.getElementById("pa_ni6_9").name
+    
+    for(i=1;i<2;i++){
+        
+        if(pal1 == pal2){
+            
+           document.getElementById("pa_ni6_8").style.borderColor="green"
+            document.getElementById("pa_ni6_9").style.borderColor="green"
+
+    evaluaPuntos()
+            
+        }else{
+            pala1()
+            pala2()
+            pala3()
+            pala4()
+        }
+    }
+}
+
+function pa_ni6_9(){
+    let pal1=document.getElementById("pa_ni6_9").name="hay"
+    let pal2=document.getElementById("pa_ni6_8").name
+
+    for(i=1;i<2;i++){
+        if(pal1 == pal2){
+            
+            document.getElementById("pa_ni6_9").style.borderColor="green"
+            document.getElementById("pa_ni6_8").style.borderColor="green"
+    evaluaPuntos()
+        }
+        else{
+            
+            pala1()
+            pala2()
+            pala3()
+            pala4()
+        }
+    }
+}
+
+
+//fin de nivel6
+//nivel7
+
+function pa_ni7_1(){
+    
+    let pal1=document.getElementById("pa_ni7_1").name="play"
+    let pal2=document.getElementById("pa_ni7_8").name
+    
+    for (var i = 1; i < 2; i++) {
+        
+        if(pal1 == pal2){
+            
+            var cl1=document.getElementById("pa_ni7_1").style.borderColor="green"
+            var cl2=document.getElementById("pa_ni7_8").style.borderColor="green"
+            
+            
+            evaluaPuntos()
+            
+        }else{
+            pala2()
+            pala3()
+            pala4()
+            pala5()
+        }
+        
+    }
+    
+}
+
+function pa_ni7_8(){
+    let pal1=document.getElementById("pa_ni7_8").name="play"
+    let pal2=document.getElementById("pa_ni7_1").name
+    
+    
+    console.log()
+    for(i=1; i<2; i++){
+        console.log()
+        if(pal1==pal2){
+            document.getElementById("pa_ni7_8").style.borderColor="green"
+            document.getElementById("pa_ni7_1").style.borderColor="green"
+
+     evaluaPuntos()       
+        }else{
+            pala2()
+            pala3()
+            pala4()
+            pala5()
+        }
+    }
+}
+
+function pa_ni7_2(){
+    let pal1=document.getElementById("pa_ni7_2").name="day"
+    let pal2=document.getElementById("pa_ni7_7").name
+    
+    
+    console.log()
+    for (var i = 1; i < 2; i++) {
+        
+        
+        if(pal1 == pal2){
+            
+            document.getElementById("pa_ni7_2").style.borderColor="green"
+            document.getElementById("pa_ni7_7").style.borderColor="green"
+
+            evaluaPuntos()
+
+        }else{
+            pala1()
+            pala3()
+            pala4()
+            pala5()
+        }
+        
+    }
+    
+}
+
+function pa_ni7_7(){
+    let pal1=document.getElementById("pa_ni7_7").name="day"
+    let pal2=document.getElementById("pa_ni7_2").name
+    
+    
+    console.log()
+    for(i=1; i<2; i++){
+        
+        if(pal1==pal2){
+            
+            document.getElementById("pa_ni7_2").style.borderColor="green"
+            document.getElementById("pa_ni7_7").style.borderColor="green"
+
+            evaluaPuntos()
+        }else{
+            
+            pala1()
+            pala3()
+            pala4()
+            pala5()
+        }
+    }
+}
+
+function pa_ni7_3(){
+    let pal1=document.getElementById("pa_ni7_3").name="work"
+    let pal2=document.getElementById("pa_ni7_6").name
+    
+    
+    console.log()
+    for (var i = 1; i < 2; i++) {
+        
+        
+        if(pal1 == pal2){
+            
+            document.getElementById("pa_ni7_3").style.borderColor="green"
+            document.getElementById("pa_ni7_6").style.borderColor="green"
+
+            evaluaPuntos()
+        }else{
+            
+            pala1()
+            pala2()
+            pala4()
+            pala5()
+        }
+        
+    }
+    
+}
+
+function pa_ni7_6(){
+    let pal1=document.getElementById("pa_ni7_6").name="work"
+    let pal2=document.getElementById("pa_ni7_3").name
+    
+    
+    console.log()
+    for(i=1; i<2; i++){
+    
+        if(pal1==pal2){
+            
+            document.getElementById("pa_ni7_3").style.borderColor="green"
+            document.getElementById("pa_ni7_6").style.borderColor="green"
+    evaluaPuntos()
+            
+            
+        }else{
+            
+            pala1()
+            pala2()
+            pala4()
+            pala5()
+        }
+    }
+}
+
+function pa_ni7_4(){
+    let pal1=document.getElementById("pa_ni7_4").name="what"
+    let pal2=document.getElementById("pa_ni7_9").name
+    
+    for(i=1;i<2;i++){
+        if(pal1 == pal2){
+            
+           document.getElementById("pa_ni7_4").style.borderColor="green"
+            document.getElementById("pa_ni7_9").style.borderColor="green"
+  
+ evaluaPuntos()
+            
+        }else{
+            pala1()
+            pala2()
+            pala3()
+            pala5()
+            
+        }
+    }
+}
+
+function pa_ni7_9(){
+    let pal1=document.getElementById("pa_ni7_9").name="what"
+    let pal2=document.getElementById("pa_ni7_4").name
+
+    for(i=1;i<2;i++){
+        if(pal1 == pal2){
+            
+            
+            document.getElementById("pa_ni7_4").style.borderColor="green"
+            document.getElementById("pa_ni7_9").style.borderColor="green"
+            
+ 
+   evaluaPuntos()          
+        }
+        else{
+            
+            pala1()
+            pala2()
+            pala3()
+            pala5()
+        }
+    }
+}
+
+function pa_ni7_5(){
+    let pal1=document.getElementById("pa_ni7_5").name="hay"
+    let pal2=document.getElementById("pa_ni7_10").name
+    
+    for(i=1;i<2;i++){
+        
+        if(pal1 == pal2){
+            
+           document.getElementById("pa_ni7_10").style.borderColor="green"
+            document.getElementById("pa_ni7_5").style.borderColor="green"
+
+    evaluaPuntos()
+            
+        }else{
+            pala1()
+            pala2()
+            pala3()
+            pala4()
+        }
+    }
+}
+
+function pa_ni7_10(){
+    let pal1=document.getElementById("pa_ni7_10").name="hay"
+    let pal2=document.getElementById("pa_ni7_5").name
+
+    for(i=1;i<2;i++){
+        if(pal1 == pal2){
+            
+            document.getElementById("pa_ni7_5").style.borderColor="green"
+            document.getElementById("pa_ni7_10").style.borderColor="green"
+    evaluaPuntos()
+        }
+        else{
+            
+            pala1()
+            pala2()
+            pala3()
+            pala4()
+        }
+    }
+}
+
+//fin de nivel7
