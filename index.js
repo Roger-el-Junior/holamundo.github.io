@@ -1,4 +1,4 @@
-//nivel1
+No//nivel1
 function evalua1(){
     
     let pal1=document.getElementById("palabra1").name="play"
@@ -2611,4 +2611,668 @@ function pala5(){
     document.getElementById("pa_ni10_9").name="abc"
 
 }
+function nivel1(){
+    
 
+    document.getElementById("dos")
+    .style.display="inline-block"
+        
+    document.getElementById("nv2").style.display="none"
+    
+    document.getElementById("nivel3").style.display="none"
+
+    document.getElementById("nivel4").style.display="none"
+
+    document.getElementById("nivel5").style.display="none"
+    
+    document.getElementById("nivel6").style.display="none"
+
+    document.getElementById("sigNivel").name="nivel2"
+    
+    document.getElementById("nivel7").style.display="none"
+    
+    document.getElementById("nivel8").style.display="none"
+    
+    document.getElementById("nivel9").style.display="none"
+    
+    document.getElementById("nivel10")
+    .style.display="none"
+    
+    jugando()
+    reiniciarpuntos()
+    colorBerde()
+    
+}
+
+function nivel2(){
+    document.getElementById("nv2").style.display="inline-block"
+
+    document.getElementById("dos").style.display="none"
+
+    document.getElementById("sigNivel").name="nivel3"
+    
+    document.getElementById("nivel4").style.display="none"
+    
+    document.getElementById("nivel5").style.display="none"
+    
+    document.getElementById("nivel6").style.display="none"
+    
+    document.getElementById("nivel7").style.display="none"
+    
+    document.getElementById("nivel8").style.display="none"
+    
+    document.getElementById("nivel9").style.display="none"
+    
+    document.getElementById("nivel10")
+    .style.display="none"
+    
+    jugando()
+    
+    colorBerde()
+
+    reiniciarpuntos()
+    
+}
+
+function nivel3(){
+    document.getElementById("nivel3"
+    ).style.display="inline-block"
+
+    document.getElementById('nv2')
+    .style.display="none"
+    
+    document.getElementById('dos').style.display="none"
+    document.getElementById("nivel4").style.display="none"
+    
+    document.getElementById("nivel5").style.display="none"
+    
+    document.getElementById("nivel6").style.display="none"
+    
+    document.getElementById("nivel7").style.display="none"
+    
+    document.getElementById("nivel8").style.display="none"
+    
+    document.getElementById("nivel9").style.display="none"
+    
+    document.getElementById("nivel10")
+    .style.display="none"
+    
+    document.getElementById("sigNivel")
+    .name="nivel4"
+    
+    jugando()
+    
+    colorBerde()
+
+    reiniciarpuntos()
+}
+
+function nivel4(){
+    document.getElementById("nivel4")
+    .style.display="inline-block"
+        
+    document.getElementById("nv2").style.display="none"
+    
+    document.getElementById("nivel3").style.display="none"
+    
+    document.getElementById("dos").style.display="none"
+
+    document.getElementById("nivel5").style.display="none"
+
+    document.getElementById("nivel6").style.display="none"
+
+    document.getElementById("nivel7").style.display="none"
+
+    document.getElementById("nivel8").style.display="none"
+
+    document.getElementById("nivel9").style.display="none"
+
+    document.getElementById("nivel10").style.display="none"
+
+    document.getElementById("sigNivel")
+    .name="nivel5"
+    
+    jugando()
+    colorBerde()
+    reiniciarpuntos()
+}
+
+function nivel5(){
+    document.getElementById("nivel5")
+    .style.display="inline-block"
+        
+    document.getElementById("nv2").style.display="none"
+    
+    document.getElementById("nivel3").style.display="none"
+    
+    document.getElementById("dos").style.display="none"
+    
+    document.getElementById("nivel4").style.display="none"
+    
+    document.getElementById("nivel6").style.display="none"
+    
+    document.getElementById("nivel7").style.display="none"
+    
+    document.getElementById("nivel8").style.display="none"
+    
+    document.getElementById("nivel9").style.display="none"
+    
+    document.getElementById("nivel10")
+    .style.display="none"
+    
+    document.getElementById("sigNivel")
+    .name="nivel6"
+    
+    jugando()
+    colorBerde()
+    reiniciarpuntos()
+}
+
+function nivel6(){
+    document.getElementById("nivel6")
+    .style.display="inline-block"
+        
+    document.getElementById("nivel5").style.display="none"
+    
+    document.getElementById("nv2").style.display="none"
+    
+    document.getElementById("nivel3").style.display="none"
+    
+    document.getElementById("dos").style.display="none"
+    
+    document.getElementById("nivel4").style.display="none"
+    
+    document.getElementById("nivel7").style.display="none"
+    
+    document.getElementById("nivel8").style.display="none"
+    
+    document.getElementById("nivel9").style.display="none"
+    
+    document.getElementById("nivel10").style.display="none"
+    
+    document.getElementById("sigNivel")
+    .name="nivel7"
+    
+    jugando()
+    colorBerde()
+    reiniciarpuntos()
+}
+
+function nivel7(){
+    document.getElementById("nivel7")
+    .style.display="inline-block"
+        
+    document.getElementById("nivel5").style.display="none"
+    
+    document.getElementById("nv2").style.display="none"
+    
+    document.getElementById("nivel3").style.display="none"
+    
+    document.getElementById("dos").style.display="none"
+    
+    document.getElementById("nivel4").style.display="none"
+    
+    document.getElementById("nivel6").style.display="none"
+    document.getElementById("nivel8").style.display="none"
+    
+    document.getElementById("nivel9").style.display="none"
+    
+    document.getElementById("nivel10").style.display="none"
+    
+    document.getElementById("sigNivel")
+    .name="nivel8"
+    
+    jugando()
+    colorBerde()
+    reiniciarpuntos()
+}
+
+function nivel8(){
+    document.getElementById("nivel8")
+    .style.display="inline-block"
+        
+    document.getElementById("nivel5").style.display="none"
+    
+    document.getElementById("nv2").style.display="none"
+    
+    document.getElementById("nivel3").style.display="none"
+    
+    document.getElementById("dos").style.display="none"
+    
+    document.getElementById("nivel4").style.display="none"
+    
+    document.getElementById("nivel6").style.display="none"
+    document.getElementById("nivel7").style.display="none"
+    
+    document.getElementById("nivel9").style.display="none"
+    
+    document.getElementById("nivel10").style.display="none"
+    
+    document.getElementById("sigNivel")
+    .name="nivel9"
+    
+    jugando()
+    colorBerde()
+    reiniciarpuntos()
+}
+
+function nivel9(){
+    document.getElementById("nivel9")
+    .style.display="inline-block"
+        
+    document.getElementById("nivel5").style.display="none"
+    
+    document.getElementById("nv2").style.display="none"
+    
+    document.getElementById("nivel3").style.display="none"
+    
+    document.getElementById("dos").style.display="none"
+    
+    document.getElementById("nivel4").style.display="none"
+    
+    document.getElementById("nivel6").style.display="none"
+    document.getElementById("nivel7").style.display="none"
+    
+    document.getElementById("nivel8").style.display="none"
+    
+    document.getElementById("nivel10").style.display="none"
+    
+    document.getElementById("sigNivel")
+    .name="nivel10"
+    
+    jugando()
+    reiniciarpuntos()
+    colorBerde()
+}
+
+function nivel10(){
+    document.getElementById("nivel10")
+    .style.display="inline-block"
+        
+    document.getElementById("nivel5").style.display="none"
+    
+    document.getElementById("nv2").style.display="none"
+    
+    document.getElementById("nivel3").style.display="none"
+    
+    document.getElementById("dos").style.display="none"
+    
+    document.getElementById("nivel4").style.display="none"
+    
+    document.getElementById("nivel6").style.display="none"
+    document.getElementById("nivel7").style.display="none"
+    
+    document.getElementById("nivel8").style.display="none"
+    
+    document.getElementById("nivel9").style.display="none"
+    
+    document.getElementById("sigNivel")
+    .name="nivel"
+    
+    jugando()
+    reiniciarpuntos()
+    colorBerde()
+}
+function evaluaBoton(){
+    let both=document.getElementById("sigNivel").name
+    
+    switch (both) {
+        case 'nivel2':
+            alert("hola")
+            nivel2()
+            break;
+            
+        case 'nivel3':
+            alert("sige el nivel3");
+            nivel3()
+            
+            break;
+        case 'nivel4':
+            alert("vas al nivel 4")
+            nivel4()
+            break;
+        case 'nivel5':
+            alert("vas al nivel 5")
+            nivel5()
+            break;
+        case 'nivel6':
+            alert("vas al nivel 6")
+            nivel6()
+            break;
+        case 'nivel7':
+            alert("vas al nivel 7")
+            nivel7();
+            break;
+        case 'nivel8':
+            alert("vas al nivel 8")
+            nivel8()
+            break;
+        case 'nivel9':
+            alert("vas al nivel 9")
+            nivel9()
+            break;
+        case 'nivel10' :
+            alert("vas al nivel 10")
+            nivel10()
+            break;
+        default:
+            // code
+    }
+}
+
+function evaluaPuntos(){
+    pala1()
+    pala2()
+    pala3()
+    pala4()
+    pala5()
+    var puntos=document.getElementById("puntos")
+    .textContent
+
+    
+    switch (puntos){
+        case "":
+            document.getElementById("puntos")
+            .innerText="1"
+            break;
+    
+        case "1":
+            document.getElementById("puntos")
+            .innerText="2"
+            break;
+        
+        case "2":
+            document.getElementById("puntos")
+                .innerText="3"
+            break;
+    
+        case "3":
+            document.getElementById("puntos")
+                .innerText="4"
+            break;
+        
+        case "4":
+            document.getElementById("puntos")
+            .textContent="5"
+            mostraBot()
+                    
+            break;
+    
+        default:;
+                    
+    }
+
+}
+
+function mostraBot(){
+
+    document.getElementById("dos")
+    .style.display="none"
+    document.getElementById("tres")
+    .style.display="none"
+    document.getElementById('fondo')
+    .style.display="none"
+    document.getElementById("mensajeFinal").style
+    .display="inline-block"
+    
+    pala1()
+    pala2()
+    pala3()
+    pala4()
+    pala5()
+    
+    
+}
+
+function reiniciarpuntos(){
+        
+    document.getElementById("puntos").textContent=""
+        
+    document.getElementById("tres").style.display="inline-block"
+    
+    
+    pala1()
+    pala2()
+    pala3()
+    pala4()
+    pala5()
+
+}
+function modoHistoria(){
+    
+    document.getElementById("paginaPrincipal").style.display="none"
+    
+    document.getElementById("historia")
+    .style.display="inline-block"
+}
+
+function jugando(){
+    document.getElementById("historia").style.display="none"
+
+    document.getElementById("fondo").style.display="inline-block"
+}
+
+function finDeNivel(){
+    document.getElementById("historia").style.display="inline-block"
+    document.getElementById("mensajeFinal")
+        .style.display="none"
+
+}
+
+function colorBerde(){
+    document.getElementById("palabra1").style.borderColor="grey"
+    
+    document.getElementById("palabra2").style.borderColor="grey"
+    
+    document.getElementById("palabra3").style.borderColor="grey"
+    
+    document.getElementById("palabra4").style.borderColor="grey"
+    
+    document.getElementById("palabra5").style.borderColor="grey"
+    
+    document.getElementById("palabra6").style.borderColor="grey"
+    
+    document.getElementById("palabra7").style.borderColor="grey"
+    
+    document.getElementById("palabra8").style.borderColor="grey"
+    
+    document.getElementById("palabra9").style.borderColor="grey"
+    
+    document.getElementById("palabra10").style.borderColor="grey"
+   
+    //segundo nivel2
+    document.getElementById("tabla").style.borderColor="grey"
+    
+    document.getElementById("table").style.borderColor="grey"
+    
+    document.getElementById("old").style.borderColor="grey"
+    
+    document.getElementById("viejo").style.borderColor="grey"
+    
+    document.getElementById("sombrero").style.borderColor="grey"
+    
+    document.getElementById("hat").style.borderColor="grey"
+    
+    document.getElementById("casa").style.borderColor="grey"
+    
+    document.getElementById("house").style.borderColor="grey"
+    
+    document.getElementById("azul").style.borderColor="grey"
+    
+    document.getElementById("blue").style.borderColor="grey"
+    
+    //segundo nivel3
+    document.getElementById("pa_ni3_1").style.borderColor="grey"
+    
+    document.getElementById("pa_ni3_2").style.borderColor="grey"
+    
+    document.getElementById("pa_ni3_3").style.borderColor="grey"
+    
+    document.getElementById("pa_ni3_4").style.borderColor="grey"
+    
+    document.getElementById("pa_ni3_5").style.borderColor="grey"
+    
+    document.getElementById("pa_ni3_6").style.borderColor="grey"
+    
+    document.getElementById("pa_ni3_7").style.borderColor="grey"
+    
+    document.getElementById("pa_ni3_8").style.borderColor="grey"
+    
+    document.getElementById("pa_ni3_9").style.borderColor="grey"
+    
+    document.getElementById("pa_ni3_10").style.borderColor="grey"
+    
+//nivel4
+    document.getElementById("pa_ni4_1").style.borderColor="grey"
+    
+    document.getElementById("pa_ni4_2").style.borderColor="grey"
+    
+    document.getElementById("pa_ni4_3").style.borderColor="grey"
+    
+    document.getElementById("pa_ni4_4").style.borderColor="grey"
+    
+    document.getElementById("pa_ni4_5").style.borderColor="grey"
+    
+    document.getElementById("pa_ni4_6").style.borderColor="grey"
+    
+    document.getElementById("pa_ni4_7").style.borderColor="grey"
+    
+    document.getElementById("pa_ni4_8").style.borderColor="grey"
+    
+    document.getElementById("pa_ni4_9").style.borderColor="grey"
+    
+    document.getElementById("pa_ni4_10").style.borderColor="grey"
+    
+//nivel5
+
+    document.getElementById("pa_ni5_1").style.borderColor="grey"
+    
+    document.getElementById("pa_ni5_2").style.borderColor="grey"
+    
+    document.getElementById("pa_ni5_3").style.borderColor="grey"
+    
+    document.getElementById("pa_ni5_4").style.borderColor="grey"
+    
+    document.getElementById("pa_ni5_5").style.borderColor="grey"
+    
+    document.getElementById("pa_ni5_6").style.borderColor="grey"
+    
+    document.getElementById("pa_ni5_7").style.borderColor="grey"
+    
+    document.getElementById("pa_ni5_8").style.borderColor="grey"
+    
+    document.getElementById("pa_ni5_9").style.borderColor="grey"
+    
+    document.getElementById("pa_ni5_10").style.borderColor="grey"
+    
+//nivel6
+
+    document.getElementById("pa_ni6_1").style.borderColor="grey"
+    
+    document.getElementById("pa_ni6_2").style.borderColor="grey"
+    
+    document.getElementById("pa_ni6_3").style.borderColor="grey"
+    
+    document.getElementById("pa_ni6_4").style.borderColor="grey"
+    
+    document.getElementById("pa_ni6_5").style.borderColor="grey"
+    
+    document.getElementById("pa_ni6_6").style.borderColor="grey"
+    
+    document.getElementById("pa_ni6_7").style.borderColor="grey"
+    
+    document.getElementById("pa_ni6_8").style.borderColor="grey"
+    
+    document.getElementById("pa_ni6_9").style.borderColor="grey"
+    
+    document.getElementById("pa_ni6_10").style.borderColor="grey"
+
+//nivel7
+
+    document.getElementById("pa_ni7_1").style.borderColor="grey"
+    
+    document.getElementById("pa_ni7_2").style.borderColor="grey"
+    
+    document.getElementById("pa_ni7_3").style.borderColor="grey"
+    
+    document.getElementById("pa_ni7_4").style.borderColor="grey"
+    
+    document.getElementById("pa_ni7_5").style.borderColor="grey"
+    
+    document.getElementById("pa_ni7_6").style.borderColor="grey"
+    
+    document.getElementById("pa_ni7_7").style.borderColor="grey"
+    
+    document.getElementById("pa_ni7_8").style.borderColor="grey"
+    
+    document.getElementById("pa_ni7_9").style.borderColor="grey"
+    
+    document.getElementById("pa_ni7_10").style.borderColor="grey"
+    
+//nivel8
+
+    document.getElementById("pa_ni8_1").style.borderColor="grey"
+    
+    document.getElementById("pa_ni8_2").style.borderColor="grey"
+    
+    document.getElementById("pa_ni8_3").style.borderColor="grey"
+    
+    document.getElementById("pa_ni8_4").style.borderColor="grey"
+    
+    document.getElementById("pa_ni8_5").style.borderColor="grey"
+    
+    document.getElementById("pa_ni8_6").style.borderColor="grey"
+    
+    document.getElementById("pa_ni8_7").style.borderColor="grey"
+    
+    document.getElementById("pa_ni8_8").style.borderColor="grey"
+    
+    document.getElementById("pa_ni8_9").style.borderColor="grey"
+    
+    document.getElementById("pa_ni8_10").style.borderColor="grey"
+    
+//nivel9
+
+    document.getElementById("pa_ni9_1").style.borderColor="grey"
+    
+    document.getElementById("pa_ni9_2").style.borderColor="grey"
+    
+    document.getElementById("pa_ni9_3").style.borderColor="grey"
+    
+    document.getElementById("pa_ni9_4").style.borderColor="grey"
+    
+    document.getElementById("pa_ni9_5").style.borderColor="grey"
+    
+    document.getElementById("pa_ni9_6").style.borderColor="grey"
+    
+    document.getElementById("pa_ni9_7").style.borderColor="grey"
+    
+    document.getElementById("pa_ni9_8").style.borderColor="grey"
+    
+    document.getElementById("pa_ni9_9").style.borderColor="grey"
+    
+    document.getElementById("pa_ni9_10").style.borderColor="grey"
+
+//nivel10
+
+    document.getElementById("pa_ni10_1").style.borderColor="grey"
+    
+    document.getElementById("pa_ni10_2").style.borderColor="grey"
+    
+    document.getElementById("pa_ni10_3").style.borderColor="grey"
+    
+    document.getElementById("pa_ni10_4").style.borderColor="grey"
+    
+    document.getElementById("pa_ni10_5").style.borderColor="grey"
+    
+    document.getElementById("pa_ni10_6").style.borderColor="grey"
+    
+    document.getElementById("pa_ni10_7").style.borderColor="grey"
+    
+    document.getElementById("pa_ni10_8").style.borderColor="grey"
+    
+    document.getElementById("pa_ni10_9").style.borderColor="grey"
+    
+    document.getElementById("pa_ni10_10").style.borderColor="grey"
+
+}
